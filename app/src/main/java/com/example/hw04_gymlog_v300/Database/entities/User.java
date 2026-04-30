@@ -3,12 +3,21 @@ package com.example.hw04_gymlog_v300.Database.entities;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+<<<<<<< HEAD
 import java.util.Objects;
 
 @Entity(tableName = User.TABLE_NAME)
 public class User {
     public static final String TABLE_NAME = "usertable";
 
+=======
+import com.example.hw04_gymlog_v300.Database.GymLogDatabase;
+
+import java.util.Objects;
+
+@Entity(tableName = GymLogDatabase.USER_TABLE)
+public class User {
+>>>>>>> ea1f6e9bbdb3754b4482c53886d5911eb7c2b88c
     @PrimaryKey(autoGenerate = true)
     private int id;
     private String userName;

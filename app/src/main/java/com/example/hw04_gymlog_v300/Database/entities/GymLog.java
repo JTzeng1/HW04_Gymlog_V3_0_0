@@ -4,12 +4,20 @@ import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+<<<<<<< HEAD
 import com.example.hw04_gymlog_v300.Database.GymLogDataBase;
+=======
+import com.example.hw04_gymlog_v300.Database.typeConverters.GymLogDatabase;
+>>>>>>> ea1f6e9bbdb3754b4482c53886d5911eb7c2b88c
 
 import java.time.LocalDateTime;
 import java.util.Objects;
 
+<<<<<<< HEAD
 @Entity(tableName = GymLogDataBase.GYM_LOG_TABLE)
+=======
+@Entity(tableName = GymLogDatabase.GYM_LOG_TABLE)
+>>>>>>> ea1f6e9bbdb3754b4482c53886d5911eb7c2b88c
 public class GymLog {
     @PrimaryKey(autoGenerate = true)
 
